@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ## Features
 
 ### 1. Favicon
-- A favicon is included for brand identity and better recognition in browser tabs.
+- A favicon is included for identity and better recognition in browser tabs.
 
 ### 2. Table
 - A table is used to present structured information in an easy-to-read format. For example, the table of my skills and experience.
@@ -26,7 +26,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - Embedded audio files are used where applicable, allowing visitors to play audio clips directly on the site.
 
 ### 8. Video
-- Videos are integrated into the site to showcase project demos or personal introductions.
+- Video is integrated into the site.
 
 ### 9. Header & Footer
 - The header includes the site's main navigation and the footer contains links to social media profiles and copyright information.
@@ -35,7 +35,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - The `<summary>` tag is used in combination with the `<details>` tag to provide collapsible sections, making the site more interactive and user-friendly.
 
 ### 11. Menu Tag
-- The `<menu>` tag is utilized to create a simple navigation menu or contextual commands for different sections of the site.
+- The `<menu>` tag is utilized to create different sections of the site.
 
 ### 12. Contact Information
 - **Tel:** For easy mobile contact, the website includes a `tel` link, allowing visitors to click and call directly.
@@ -51,5 +51,5 @@ Feel free to reach out to me through the contact form on the site, or use the fo
 ### Technologies Used:
 - **HTML5**
 - **CSS3**
-- **JavaScript**
+  
 
