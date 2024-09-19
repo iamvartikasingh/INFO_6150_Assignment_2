@@ -23,7 +23,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - Buttons are used for form submission, navigation, and call-to-action (e.g., "Contact Me" or "See My Work").
 
 ### 7. Audio
-- Embedded audio files are used where applicable, allowing visitors to play audio clips directly on the site.
+- Embedded audio file is used in the home page.
 
 ### 8. Video
 - Video is integrated into the site.
