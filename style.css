@@ -107,8 +107,8 @@ nav a:hover{
 
 .section-vid video{
     width: 110%;
-    max-width: 900px; /* Set a maximum width for the video */
-    height: 500px; /* Maintain the aspect ratio */
+    max-width: 900px; 
+    height: 500px; 
     /* display: block; */
   
 }
@@ -194,13 +194,13 @@ footer {
     }
 
     .section-text {
-        padding: 0; /* Remove padding adjustments for smaller screens */
+        padding: 0; 
     }
 
     .section-vid
     {
-        max-width: 85%; /* Allow the image to take full width */
-        margin-top: 20px; /* Add spacing between text and image */
+        max-width: 85%; 
+        margin-top: 20px; 
     }
 
 
@@ -235,18 +235,18 @@ footer {
 
 
     .section {
-        flex-direction: column; /* Stack the image and text vertically */
-        align-items: center; /* Center-align the content */
-        text-align: center; /* Center text content */
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
     }
 
     .section-text {
-        padding: 0; /* Remove padding adjustments for smaller screens */
+        padding: 0; 
     }
 
     .section-vid {
-        max-width: 100%; /* Allow the image to take full width */
-        margin-top: 20px; /* Add spacing between text and image */
+        max-width: 100%; 
+        margin-top: 20px; 
     }
 
 
@@ -317,7 +317,7 @@ footer {
 
 .image-gallery menu {
     display: flex;
-   
+   padding: 20px;;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -327,14 +327,18 @@ footer {
 .image-gallery img {
     display: block;
     margin: 0 auto;
-    max-width: 50%;
-    height: auto;
+    max-width: 300px;
+    height: 280px;
+    padding: 2%;
 }
 
-.image-gallery figcaption {
+.image-gallery figcaption 
+{   padding:20px;
     margin-top: 10px;
     font-size: 16px;
     text-align: center;
+    text-decoration: none;
+    
 }
  
 
@@ -355,7 +359,7 @@ footer {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #2e073d;
   }
   
   label {
@@ -383,7 +387,7 @@ footer {
   button {
     width: 100%;
     padding: 14px;
-    background-color: #28a745;
+    background-color: #9a67c0;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -418,7 +422,7 @@ th {
 
 button {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #6e29e4;
     color: white;
     border: none;
     cursor: pointer;
@@ -465,9 +469,9 @@ button:hover {
     }
 }
 .contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px 20px;  /* Added padding */
+    margin: 90px auto;
+    padding: 90px;
+   
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -475,9 +479,9 @@ button:hover {
   
   .contact-form-container h1 {
     text-align: center;
-    font-size: 2.5rem;  /* Adjusted for larger screens */
+    font-size: 2.5rem;  
     margin-bottom: 30px;
-    color: #333;
+    color: #2f0b56;
   }
   
   .contact-form-container form {
@@ -486,7 +490,7 @@ button:hover {
   }
   
   .contact-form-container label {
-    margin-bottom: 10px;  /* Increased margin for better spacing */
+    margin-bottom: 10px;  
     font-size: 1.1rem;
     color: #555;
   }
@@ -511,7 +515,7 @@ button:hover {
   .contact-form-container button {
     padding: 14px;
     font-size: 1.2rem;
-    background-color: #4CAF50;
+    background-color: #624185;
     color: white;
     border: none;
     border-radius: 5px;
@@ -520,45 +524,52 @@ button:hover {
   }
   
   .contact-form-container button:hover {
-    background-color: #45a049;
+    background-color: #5763b0;
   }
   
   /* Media Queries */
   @media (max-width: 768px) {
     .contact-form-container {
-      padding: 30px 15px;  /* Reduced padding for smaller screens */
+      padding: 30px 15px;  
     }
     
     .contact-form-container h1 {
-      font-size: 2rem;  /* Adjust font size for medium screens */
+      font-size: 2rem;  
     }
     
     .contact-form-container input[type="text"],
     .contact-form-container input[type="email"],
     .contact-form-container textarea {
-      font-size: 1rem;  /* Reduce input font size */
+      font-size: 1rem;  
     }
   }
   
   @media (max-width:  365px) {
     .contact-form-container {
-      padding: 20px 10px;  /* Further reduce padding for smaller devices */
+      padding: 70px 80px;  
+      margin: 90px auto;
+    padding: 90px;
+   
     }
     
     .contact-form-container h1 {
-      font-size: 1.8rem;  /* Adjust font size for mobile screens */
+      font-size: 1.8rem;  
       margin-bottom: 20px;
     }
     
     .contact-form-container input[type="text"],
     .contact-form-container input[type="email"],
     .contact-form-container textarea {
-      font-size: 0.9rem;  /* Smaller input font size for mobile */
+      font-size: 0.9rem;  
     }
   
     .contact-form-container button {
       padding: 12px;
-      font-size: 0.2rem;  /* Smaller button for mobile */
+      font-size: 0.2rem;  
     }
   }
   
+  details{
+    margin: 40px 60px;
+   
+  }
