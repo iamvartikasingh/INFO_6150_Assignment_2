@@ -78,7 +78,8 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
+   padding:20px;
   
 }
 
@@ -87,6 +88,7 @@ nav a:hover{
     margin-left:5%;
     flex: 1;
     padding-right: 20px;
+   
 }
 
 .section-text h2 {
@@ -300,10 +302,7 @@ footer {
     flex: 2;
 }
 
-.gallery {
-    flex: 1;
-    position: relative;
-}
+
 
 /* Image Gallery */
 /* Center the images and text in the image gallery */
@@ -333,8 +332,9 @@ footer {
 }
 
 .image-gallery figcaption 
-{   padding:20px;
-    margin-top: 10px;
+{   position: absolute;
+    padding:20px;
+    
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -404,7 +404,8 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px ;
+padding: 20px;
 }
 
 th, td {
@@ -471,6 +472,7 @@ button:hover {
 .contact-form-container {
     margin: 90px auto;
     padding: 90px;
+   
    
     background-color: #f9f9f9;
     border-radius: 10px;
