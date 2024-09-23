@@ -44,7 +44,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ## Contact
 Feel free to reach out to me through the contact form on the site, or use the following:
 - **Phone:** [tel:+123456789](tel:+123456789)
-- **Email:** [mailto:me@example.com](mailto:singh.vart@northeastern.edu)
+- **Email:** [mailto:singh.vart@northeastern.edu](mailto:singh.vart@northeastern.edu)
 
 ---
 
